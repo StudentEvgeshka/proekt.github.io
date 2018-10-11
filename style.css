@@ -1,0 +1,268 @@
+body{margin-top:0;margin-bottom: 0}
+#container{	margin-left:auto; 
+			margin-right:auto; 
+			background-color: red; 
+			width:90%;
+			max-width: 1000px;
+			height:100%;
+			position: relative;display:block;}
+
+/* --------------шапка сайта------------------*/
+
+/* общие настройки */
+#header{	background-color: white; 
+			width:100%;
+			height:250px;
+			position: relative;
+			margin-top:0px;}
+#zmist{	background-color: white; 
+			width:100%;
+			height:100%;
+			position: relative;
+			margin-top:0px;}
+/* логотип и соц. сети */
+
+	#logo{	margin-top: 5px; 
+			margin-left:5px;
+			position: relative; display:block; 
+			float: left; 
+			width:200px;
+			height: 185px; 
+			background: url(img/logo.png) repeat-x;
+		  }
+	#nazva{margin-top: 0px; 
+			position: relative; display:block; 
+			float: left; 
+			width:550px;
+			height: 80px; border:0px solid;}
+	#nazva h1{padding-top:25px;
+			  font-size: 50px; color: #5767ff;
+			  font-family: verdana;
+			  font-family: 'Scada', sans-serif;
+			  line-height: 10px;
+			  margin-bottom: 0;
+			  text-align: center;}
+	#nazva h2{font-family: 'Scada', sans-serif;
+			  padding-top:10px; color:#5767ff;
+			  font-size: 20px;
+			  text-align: center;
+			  line-height: 24px;
+			  margin-bottom: 0;}		  	  
+	#social{width:200px; 
+			margin-top: 80px; margin-right: 10px;
+			position: relative; display:block;
+			float: right;
+		   }
+	#b1,#b2,#b3,#b4,#b5{float:left; width:40px; height:40px;  }
+	
+/* главное меню  - горизонтальное*/
+
+	#headermenu{ position:relative; display:block; float: left;
+				 width:100%;
+				 height:52px;
+				}    
+	#headermenu-left{background: url(img/bg-menu-left.png) repeat-x;
+    			    height:100%;
+    			    width:8px;
+    			    position:relative; display:block; float: left;
+    			    }	
+	#headermenu-center{background: url(img/bg-menu.png) repeat-x;
+					width:98%;
+					height:100%;
+					position:relative; display:block; float:left;
+					}
+	#headermenu-right{background: url(img/bg-menu-right.png) repeat-x;
+    				height:100%;
+    				width:8px;
+    				position:relative; display:block; float:left;
+    				}
+    #headermenu ul {padding-left: 130px;}								 
+	#headermenu li {list-style:none;
+					float:left; 
+					height:25px; 
+					padding:0; 
+					margin:0; 
+					width:180px;
+					font-weight: bold;	
+					text-align:center; 	
+					position:relative;	
+					padding-top:2px;
+					}
+	#headermenu li a, #newsfooter a {display: block;	
+					width: 140px;	
+					height: 25px;
+					font-weight: bold;
+					font-size:12pt;	
+					font-family: sans-serif;
+			   		color:#565656;
+					text-decoration:none;	
+					}
+	#headermenu li a:hover, #newsfooter a:hover {color: #996633;	text-decoration: none;	}
+
+/* основной контекст */
+/*деление содержания и сайдбар */
+#content{	background-color: white; 
+			height:100%;
+			position:relative;
+			display: block;
+			float: left;	
+			width:670px;	}
+#saidbar{	background-color: white;
+			width:330px;
+			height:100%;
+			float: right; 
+		    position:relative;
+			display: block;	}	
+/* видео представление */
+#videobox{width:650px;
+			height:375px;
+			margin-left:10px;
+			margin-top:0px; 
+			background-color: white;
+			background: url(img/box-fon-top.png) repeat-x;
+    		position:relative; display:block; float:left;}
+#videobox-left-top{width:5px;
+			height:360px;
+			margin-left:0px;
+			margin-top:0px; 
+			position:relative; display:block; float:left;
+			background: url(img/box-left-top.png) repeat-x;}
+#videobox-content{width:640px;
+			height:360px;
+			margin-top:15px;
+			/*background-color: green;*/ 
+			position:relative; display:block; float:left;
+			}
+#videobox-right-top{width:5px;
+			height:360px;
+			position:relative; display:block; float:left;
+			background: url(img/box-right-top.png) repeat-x;}
+
+#videobox-line-bottom{width:650px; height:11px; background-color: green;
+position:relative; display:block; float:left;}
+#videobox-left-bottom{width:5px;
+			height:11px;
+			position:relative; display:block; float:left;
+			background: url(img/box-left-bottom.png) repeat-x;}
+#videobox-fon-bottom{width:640px;
+			height:11px;
+			position:relative; display:block; float:left;
+			background: url(img/box-fon-bottom.png) repeat-x;}
+#videobox-right-bottom{width:5px;
+			height:11px;
+			position:relative; display:block; float:left;
+			background: url(img/box-right-bottom.png) repeat-x;}
+/* Прес-центр школи */
+
+#saidbar-left{width:5px;height:41px;
+			margin-left:0px;
+			margin-top:0px; 
+			position:relative; display:block; float:left;
+			background: url(img/saidbar-left.png) repeat-x;}
+#saidbar-top{width:320px;height:41px;
+			position:relative; display:block; float:left;
+			background: url(img/saidbar-top.png) repeat-x;}
+#saidbar-right{width:5px;height:41px;
+			position:relative; display:block; float:left;
+			background: url(img/saidbar-right.png) repeat-x;}
+#saidbarcontent{width:330px;
+			height:335px;
+			position:relative; display:block; float:left;
+			background-color:white}
+#saidbar h2{text-align: center;font-weight: bold;
+					font-size:12pt;	
+					font-family: sans-serif;
+			   		color:#565656; margin-top:10px;}
+#saidbar-left-bottom{width:5px;
+			height:11px;
+			position:relative; display:block; float:left;
+			background: url(img/box-left-bottom.png) repeat-x;}
+#saidbar-fon-bottom{width:320px;
+			height:11px;
+			position:relative; display:block; float:left;
+			background: url(img/box-fon-bottom.png) repeat-x;}
+#saidbar-right-bottom{width:5px;
+			height:11px;
+			position:relative; display:block; float:left;
+			background: url(img/box-right-bottom.png) repeat-x;}
+#news{width:330px;
+			height:75px;margin-top: 2px;
+			position:relative; display:block; float:left;
+			background-color: #d2d1d1; padding-top: 0px;}
+#news span{text-align: justify; 
+			padding-right:5px; padding-top: 0px; 
+			font-size:12px;	
+			font-family: sans-serif;
+			color:#565656; }
+#news a {font-weight: bold;
+			font-size:12px;	
+			font-family: sans-serif;
+			color:#565656;
+			text-decoration:none;}	
+
+#newsfooter{width:330px;
+			height:25px;margin-top: 2px;
+			position:relative; display:block; float:left;
+			background-color: #dddddd;}
+#newsfooter a { margin-left: 100px;}
+/*категории сайта*/
+#bloks{width: 990px;
+			height:331px;
+			margin-left:10px;
+			margin-top:10px; 
+			/*background-color: blue;*/
+			position:relative; display:block; float:left;}
+
+
+.kategorya{width:245px;
+			height:320px;
+			margin-left:2px;
+			margin-top:0px; 
+			background-color: white;
+			background: url(img/box-fon-top.png) repeat-x;
+    		position:relative; display:block; float:left;}
+.blok{width:245px;
+			height:320px;
+			background-color: white;
+			position:relative; display:block; float:left;}
+.kategorya-left-top{width:5px;
+			height:300px;
+			margin-left:0px;
+			margin-top:0px; 
+			position:relative; display:block; float:left;
+			background: url(img/box-left-top.png) repeat-x;}
+.kategorya-content{width:235px;
+			height:300px;
+			margin-top:15px;
+			/*background-color: green;*/
+			position:relative; display:block; float:left;
+			}
+.kategorya-right-top{width:5px;
+			height:300px;
+			position:relative; display:block; float:left;
+			background: url(img/box-right-top.png) repeat-x;}
+.kategorya-line-bottom{width:245px; height:11px; background-color: green;
+position:relative; display:block; float:left;}
+
+.kategorya-left-bottom{width:5px;
+			height:11px;
+			position:relative; display:block; float:left;
+			background: url(img/box-left-bottom.png) repeat-x;}
+.kategorya-fon-bottom{width:235px;
+			height:11px;
+			position:relative; display:block; float:left;
+			background: url(img/box-fon-bottom.png) repeat-x;}
+.kategorya-right-bottom{width:5px;
+			height:11px;
+			position:relative; display:block; float:left;
+			background: url(img/box-right-bottom.png) repeat-x;}
+
+
+/* подвал сайта */			
+footer{	background: url(img/box-fon-top.png) repeat-x;
+			width:100%;
+			height:100px;
+			margin-top: 10px;
+		position:relative; display:block; float:left;
+			}
+
